@@ -3,6 +3,7 @@
     border: 1px solid;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr 4fr;
+    gap: 10px;
 }
 
 .header {
@@ -14,16 +15,18 @@
     grid-column-end: 3;
 }
 
-.search-bar{
+.search-bar {
     grid-column: 1/2;
-   
+
 }
-.username{
-  grid-column: 2/3;  
+
+.username {
+    grid-column: 2/3;
 }
+
 .header-username {
     grid-column: 1/2;
-    
+
 }
 
 .header-buttons {
@@ -40,5 +43,25 @@
 
 .main-container {
     border: 2px green solid;
+    grid-column: 2/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
+}
+
+.projects-section {
+    border: 3px rgb(150, 40, 40) solid;
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+
+.announcements-section{
+    border: 3px rgb(77, 40, 150) solid;
+    grid-column: 2/3;
+}
+.trending-section{
+    border: 3px rgb(23, 195, 101) solid;
     grid-column: 2/3;
 }
