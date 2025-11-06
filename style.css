@@ -63,6 +63,10 @@ ul {
 
 .header-buttons {
     grid-column: 2/3;
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    gap: 15px;
 }
 
 #user-profile-img1{
