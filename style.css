@@ -76,6 +76,10 @@ ul {
     border-radius: 505;
 
 }
+#user-profile-name1{
+    font-size: 20px;
+    font-weight: 700;
+}
 
 #search-btn{
     border: none;
