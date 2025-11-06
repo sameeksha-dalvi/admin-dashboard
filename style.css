@@ -32,8 +32,7 @@ ul {
     grid-template-rows: 1fr 1fr;
     grid-column-start: 2;
     grid-column-end: 3;
-    padding: 20px;
-    gap: 15px;
+    gap: 2px;
 }
 
 .search-bar {
@@ -62,7 +61,7 @@ ul {
 
 }
 
-.header-buttons {
+.header-buttons-section {
     grid-column: 2/3;
     display: flex;
     justify-content: center;
@@ -113,6 +112,14 @@ input[type=search]{
     background: rgb(215, 231, 235);
     width: 100%;
     padding: 5px;
+}
+
+.header-buttons{
+    background-color: rgb(0, 145, 255);
+    color: white;
+    padding: 7px 20px;
+    border-radius: 14px;
+    border: none;
 }
 
 .sidebar {
