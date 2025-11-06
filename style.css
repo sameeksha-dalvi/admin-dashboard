@@ -1,3 +1,6 @@
+body{
+    margin: 0%;
+}
 svg {
     color: white;
     width: 24px;
@@ -20,7 +23,6 @@ ul {
 
 .container {
     display: grid;
-    border: 1px solid;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr 4fr;
     gap: 10px;
