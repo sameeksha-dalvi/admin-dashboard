@@ -54,6 +54,10 @@ ul {
 
 .header-username {
     grid-column: 1/2;
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    gap: 15px;
 
 }
 
