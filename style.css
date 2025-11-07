@@ -269,7 +269,7 @@ input[type=search] {
         align-items: center;
     }
 
-     .main-links,
+    .main-links,
     .other-links,
     .sidebar-title {
         display: flex;
@@ -284,4 +284,5 @@ input[type=search] {
     .other-links>ul {
         padding: 0;
     }
+     
 }
