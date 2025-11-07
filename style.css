@@ -1,16 +1,16 @@
-
 @font-face {
     font-family: 'Roboto';
     src: url('fonts/roboto-variablefont_wdthwght-webfont.woff') format('woff'),
-         url('fonts/roboto-variablefont_wdthwght-webfont.woff2') format('woff2');
+        url('fonts/roboto-variablefont_wdthwght-webfont.woff2') format('woff2');
     font-style: normal;
     font-weight: normal;
 }
 
-body{
+body {
     margin: 0%;
     font-family: Roboto;
 }
+
 svg {
     color: white;
     width: 24px;
@@ -35,7 +35,7 @@ ul {
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr 4fr;
-    
+
 }
 
 .header {
@@ -81,19 +81,19 @@ ul {
     gap: 15px;
 }
 
-#user-profile-img1{
+#user-profile-img1 {
     width: 50px;
     height: auto;
     border-radius: 50%;
 
 }
 
-#user-profile-name1{
+#user-profile-name1 {
     font-size: 20px;
     font-weight: 700;
 }
 
-#user-profile-img2{
+#user-profile-img2 {
     width: 100px;
     height: auto;
     border-radius: 50%;
@@ -101,24 +101,24 @@ ul {
 }
 
 
-#greeting{
+#greeting {
     font-size: 16px;
     font-weight: 700;
     margin-bottom: 5px;
 }
 
-#user-profile-name2{
+#user-profile-name2 {
     font-size: 30px;
     font-weight: 700;
     margin-top: 0%;
 }
 
-#search-btn{
+#search-btn {
     border: none;
     background: none;
 }
 
-input[type=search]{
+input[type=search] {
     border-radius: 12px;
     border: none;
     background: rgb(215, 231, 235);
@@ -126,7 +126,7 @@ input[type=search]{
     padding: 5px;
 }
 
-.header-buttons{
+.header-buttons {
     background-color: rgb(0, 145, 255);
     color: white;
     padding: 7px 20px;
@@ -149,14 +149,14 @@ input[type=search]{
 }
 
 .main-container {
-    
+
     background-color: rgb(215, 231, 235);
     grid-column: 2/3;
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr 1fr 30px;
     gap: 10px;
-    
+
 }
 
 .projects-section {
@@ -186,31 +186,31 @@ input[type=search]{
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
-.card-line{
+.card-line {
     background-color: rgb(240, 206, 11);
     width: 10px;
     border-radius: 8px 0 0 8px;
 }
 
-.project-icons{
+.project-icons {
     display: flex;
     justify-content: flex-end;
     gap: 15px;
 }
 
-.project-elements{
+.project-elements {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     margin-right: 20px;
 }
 
-.project-title{
+.project-title {
     font-size: 20px;
     font-weight: 600;
 }
 
-.project-desc{
+.project-desc {
     color: rgb(105, 100, 100);
 }
 
@@ -253,4 +253,35 @@ input[type=search]{
     gap: 10px;
     font-size: 18px;
     font-weight: 800;
+}
+
+@media (max-width: 600px) {
+
+    .sidebar-link {
+        display: none;
+    }
+
+    .sidebar {
+        width: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+     .main-links,
+    .other-links,
+    .sidebar-title {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+
+
+    } 
+
+    .main-links>ul,
+    .other-links>ul {
+        padding: 0;
+    }
 }
