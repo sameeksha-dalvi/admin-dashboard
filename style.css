@@ -130,8 +130,10 @@ input[type=search]{
     background-color: rgb(0, 145, 255);
     color: white;
     padding: 7px 20px;
-    border-radius: 14px;
+    border-radius: 16px;
     border: none;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .sidebar {
